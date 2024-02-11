@@ -10,7 +10,7 @@ class Funny_String(unittest.TestCase):
         
         self.assertEqual(result,expected_output, f'Should be {expected_output}')
 
-    def test_give_acxz_should_Funny(self):
+    def test_give_bcxz_should_Not_Funny(self):
         s = "bcxz"
         expected_output = "Not Funny"
         
