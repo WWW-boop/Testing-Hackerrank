@@ -46,3 +46,14 @@ class Caesar_Cipher(unittest.TestCase):
         result = caesarCipher(s, k)
         
         self.assertEqual(result, expected_output, f'Should be {expected_output}')
+    
+    def test_give_159357lcfd_and_98_should_159357fwzx(self):
+        s = "159357lcfd"
+        k = 98
+        expected_output = "159357fwzx"
+        
+        result = caesarCipher(s, k)
+        
+        self.assertEqual(result, expected_output, f'Should be {expected_output}')  
+    
+    
