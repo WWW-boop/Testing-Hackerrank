@@ -1,4 +1,4 @@
-def alternate(s):
+def two_characters(s):
     c = tuple(set(s))
     if len(c) < 2:
         return 0
